@@ -4,7 +4,7 @@ let button;
 let strokeShape;
 
 function setup() {
-    createCanvas(500, 500);
+    createCanvas(height, width);
     textSize(15);
     noStroke();
     button = createButton('Circle');
